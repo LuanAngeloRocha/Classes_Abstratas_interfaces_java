@@ -1,13 +1,9 @@
-public class Teste extends Conta {
-      
-    @Override
-     public void imprimeExtrato() {
-         System.out.println("Seu Saldo é:" +getSaldo());
-         
-            // TODO Auto-generated method stub
-            
-        }
-  
+public class Teste {
+    public static void main(String[] args) {
+        Contaespecializada contaespecializada = new Contaespecializada();
 
-   
+        contaespecializada.getSaldo();
+        contaespecializada.imprimeExtrato();
+    }
+    
 }
